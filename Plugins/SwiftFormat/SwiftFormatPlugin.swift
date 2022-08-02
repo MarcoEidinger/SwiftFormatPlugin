@@ -20,9 +20,9 @@ struct SwiftFormatPlugin: CommandPlugin {
         }
 
         for target in targetsToProcess {
-            guard let target = target as? SourceModuleTarget, let directory = URL(string: target.directory.string) else { continue }
+            guard let target = target as? SourceModuleTarget else { continue }
 
-            try formatCode(in: directory, context: context, arguments: argExtractor.remainingArguments)
+            try formatCode(in: target.directory, context: context, arguments: argExtractor.remainingArguments)
         }
     }
 }

@@ -15,9 +15,7 @@ import PackagePlugin
             var argExtractor = ArgumentExtractor(arguments)
             _ = argExtractor.extractOption(named: "target")
 
-            guard let directory = URL(string: context.xcodeProject.directory.string) else { return }
-
-            try formatCode(in: directory, context: context, arguments: argExtractor.remainingArguments)
+            try formatCode(in: context.xcodeProject.directory, context: context, arguments: argExtractor.remainingArguments)
         }
     }
 #endif
