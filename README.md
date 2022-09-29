@@ -12,7 +12,7 @@ Add the package to your dependencies.
 ```swift
 dependencies: [
     // ...
-    .package(url: "https://github.com/MarcoEidinger/SwiftFormatPlugin", from: "0.49.16"),
+    .package(url: "https://github.com/MarcoEidinger/SwiftFormatPlugin", from: "0.49.17"),
 ]
 ```
 
