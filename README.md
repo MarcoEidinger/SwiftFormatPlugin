@@ -1,5 +1,7 @@
 # SwiftFormatPlugin
 
+📣 **I contributed the plugin implementation to [nicklockwood/SwiftFormat](https://github.com/nicklockwood/SwiftFormat#swift-package-manager-plugin) which is available with [0.50.4](https://github.com/nicklockwood/SwiftFormat/releases/tag/0.50.4)** 🚨
+
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FMarcoEidinger%2FSwiftFormatPlugin%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/MarcoEidinger/SwiftFormatPlugin)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FMarcoEidinger%2FSwiftFormatPlugin%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/MarcoEidinger/SwiftFormatPlugin)
 
